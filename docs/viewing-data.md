@@ -22,7 +22,7 @@ This is a raw table of every single certification record to exist.
 
 | Column | Meaning |
 | :--------- | :----------- |
-| UID | Used by those with the relevant permission to find a particular record to edit or delete. |
+| UID | Used by those with [can_edit_cert_hist](permissions.md#basic-permissions) or [can_delete_cert_hist](permissions.md#basic-permissions) to find a particular record to manipulate. |
 | Member Certified | The member getting credited with a certification. |
 | Certifying Member | The member who performed the certification of the `Member Certified`. |
 | Signed Off By | The member — traditionally someone in a leadership role — who sanity checked that the certification procedure was more-or-less adhered to for the `Member Certified`. |

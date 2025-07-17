@@ -27,3 +27,6 @@ Once all fields are filled, click the button at the bottom.
 For user convenience the following conditions apply. These are enforced programmatically and will result in a kick-back to the form if violated.
 
 - `Expiry Interval` may not equal or exceed 400 days.
+
+## Deletion
+Deletion of certifications is not supported as they are necessary to avoid data corruption. It is on the roadmap to implement systems to allow certifications which have been sunset to be hidden from view. 

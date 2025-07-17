@@ -20,16 +20,13 @@ These are the simple "add, edit, delete" permissions that make up the bulk of ho
 
 Edit and delete type permissions apply to *all* records in the database which meet the criteria. There are no restrictions on what *kinds* of such records are manipulable. For example, a person with `can_edit_member` can edit *every* member — including themselves.
 
-### Data Deletion
-Astute observers will notice there are not permissions to *delete* members or certifications. This is because it is not supported. The existence of such records are necessary to avoid data and query corruption. It is on the roadmap to implement systems to allow members and certifications which have been sunset to be hidden from view. 
-
 ## Specialized Permissions
 The following are permissions which enable more nuanced behavior.
 
 ### is_admin
 The permission `is_admin` is what programmatically determines if a person is an administrator or not. It grants access to the *Access Control* tab.
 
-As a security and accountability measure this permission cannot be changed at the *Access Control*; it must be flipped by manually editing the database.
+As a security and accountability measure this permission cannot be changed at the *Access Control* tab; it must be flipped by manually editing the database.
 
 On the security side, it ensures that if an administrator Discord account is compromised that other adminstrators cannot be locked out. On the accountability side, `is_admin` should not be given flippantly, and it's assignment should be the product of a conversation with <abbr title="Endurance Coalition">EDC</abbr> leaders and EnduraNet's maintainer.
 

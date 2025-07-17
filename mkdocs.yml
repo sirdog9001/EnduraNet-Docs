@@ -1,21 +1,22 @@
 site_name: EnduraNet Documentation
 site_url: https://enduranet.edcgaming.org/docs/
-use_directory_urls: true # or false, test both if needed
+use_directory_urls: true
 
 theme:
   name: material
   palette:
+    # Palette toggle for dark mode (now the default)
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-      primary:
+
   features:
     - header.autohide
     - navigation.instant
@@ -23,7 +24,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.instant
     - navigation.footer
     - toc.integrate
     - content.code.annotate
@@ -34,13 +34,13 @@ theme:
 
 markdown_extensions:
   - admonition
-  - attr_list # For adding attributes like 'caption' to elements
-  - md_in_html # To process Markdown within HTML blocks
-  - pymdownx.details # Useful for collapsible admonitions
-  - pymdownx.superfences # For nesting code blocks within admonitions
-  - tables # For enabling Markdown tables
-  - fenced_code # For fenced code blocks (```)
-  - footnotes # For using footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - fenced_code
+  - footnotes
 
 nav:
   - Front Page: index.md
@@ -51,6 +51,7 @@ nav:
           - Adding & Editing Members: edit/edit-members.md
           - Adding & Editing Certifications: edit/edit-certs.md
           - Adding, Editing & Deleting History: edit/edit-history.md
+          - Adjusting Permissions: edit/change-perms.md
           - Utilities:
               - Flagged Persons: edit/flagged-persons.md
   - Permissions & Access: permissions.md

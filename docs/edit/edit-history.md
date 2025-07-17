@@ -27,6 +27,4 @@ For user convenience the following conditions apply. These are enforced programm
 - `Date Member was Certified` may not be in the
 
 ## Deletion
-Deletion requires [can_delete_cert_history](../permissions.md#basic-permissions). If the user looking at the form has it, a "Delete Record" button will be visible at the editing form.
-
-Once clicked, the member will get a confirmation alert. It will advise the user that deletions are irreversible and, that by doing so, there will be immediate ramifications to the expiry calculations of the member with the relevant record. From there the user may either back out or confirm the deletion.
+Deletion requires [can_delete_cert_history](../permissions.md#basic-permissions). If the user looking at the form has it a "Delete Record" button will be adjacent to the "Edit Record" button. A `Certification History to Edit` will need to be selected first before clicking "Delete Record".

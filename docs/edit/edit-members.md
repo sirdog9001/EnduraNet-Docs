@@ -52,3 +52,6 @@ To get a Steam ID, do the following:
 4. Go to [SteamID.io](https://steamid.io/lookup/).
 5. Paste the entire URL into the `input...` bar and click "lookup".
 6. Copy the `steamID64` field. Paste it into the `Steam ID` field. You are done.
+
+## Deletion
+Deletion of members is not supported as they are necessary to avoid data corruption. It is on the roadmap to implement systems to allow members which have been sunset to be hidden from view. 
