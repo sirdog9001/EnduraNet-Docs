@@ -43,20 +43,21 @@ markdown_extensions:
   - footnotes # For using footnotes
 
 nav:
-  - Home: index.md
-  - Viewing Data: viewing-data.md
-  - Editing Data:
-      - Logging In: edit/logging-in.md
-      - Adding & Editing Members: edit/edit-members.md
-      - Adding & Editing Certifications: edit/edit-certs.md
-      - Adding & Editing History: edit/edit-history.md
-      - Utilities:
-          - Flagged Persons: edit/flagged-persons.md
+  - Front Page: index.md
+  - How to Use:
+      - Viewing Data: viewing-data.md
+      - Editing Data:
+          - Logging In: edit/logging-in.md
+          - Adding & Editing Members: edit/edit-members.md
+          - Adding & Editing Certifications: edit/edit-certs.md
+          - Adding, Editing & Deleting History: edit/edit-history.md
+          - Utilities:
+              - Flagged Persons: edit/flagged-persons.md
   - Permissions & Access: permissions.md
   - Code: code.md
   - Release Notes: release-notes.md
 
-copyright: Copyright &copy; 2025 Endurance Coalition <br/> Maintained by Sirdog
+copyright: Copyright &copy; 2025 Endurance Coalition
 
 extra:
   generator: false

@@ -1,5 +1,4 @@
-# Introduction
-EnduraNet uses a modular permissions model where individual users are assigned individual permissions that allow very specific actions.
+EnduraNet uses a modular permissions model where users are assigned *individual permissions* that allow *very specific* actions.
 
 EnduraNet determines whether an individual can login by checking to see if they have atleast 1 permission. If they do, the login will be successful and they will be able to see and access the *Data Management* tab. If not, they will be kicked back to `members.php` with a generic access denied message.
 
@@ -7,7 +6,7 @@ EnduraNet determines whether an individual can login by checking to see if they 
 Permissions are adjusted by administrators at the *Access Control* tab.
 
 ## Basic Permissions
-These are the simple "add, edit, delete" permissions that make up the bulk of how EnduraNet functions are below.
+These are the simple "add, edit, delete" permissions that make up the bulk of how EnduraNet functions.
 
 | Permission | What It Does |
 | :--------- | :----------- |
