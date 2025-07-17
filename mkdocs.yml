@@ -55,7 +55,7 @@ nav:
           - Utilities:
               - Flagged Persons: edit/flagged-persons.md
   - Permissions & Access: permissions.md
-  - Code: code.md
+  #- Code: code.md
   - Release Notes: release-notes.md
 
 copyright: Copyright &copy; 2025 Endurance Coalition

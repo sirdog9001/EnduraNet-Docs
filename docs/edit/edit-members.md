@@ -20,7 +20,7 @@ Once all fields are filled, click the button at the bottom.
 
 ## Getting a Discord ID
 !!! info
-    To check that a Discord ID is valid input it at the [Discord.id](https://discord.id) website.
+    To ensure that the number you have is actually a Discord ID check it against the [Discord.id](https://discord.id) website.
 A Discord ID is a long-number value which *uniquely* identifies a person's Discord account against all others. This field is *extremely important* for EnduraNet as it is part of the authentication process to login and be assigned permissions.
 
 To get a Discord ID, do the following:
