@@ -1,11 +1,49 @@
-!!! tip "Here for Certification Status?"
-    Here to check if someone has a certification or not? This information is displayed by clicking the "[Search...](viewing-data.md#search)" tab on EnduraNet and selecting the search method you desire. It will be clearly indicated.
+# Welcome to EnduraNet's Documentation
 
-Welcome to the documentation site for EnduraNet, a web application written in PHP by Sirdog. This serves as the central repository for all information pertinent to the application.
+**The documentation for EnduraNet — the Endurance Coalition's information management system for Arma 3.**<br/>
+*Current version: v1.2.0 · Last updated: July 11, 2025*
 
-This documentation is up-to-date as of EnduraNet v1.2.0.
+---
+## Common Actions
 
-## Bugs or Issues?
-Please report any bugs or issues to Sirdog directly, either by DM or pinging him in the <abbr title="Endurance Coalition">EDC</abbr> Discord. The most appropriate place to do this would be the `EnduraNet (Cert DB)` thread under forum `dev-ops`.
+<div class="grid cards" markdown>
 
-If the bug or issue is *security* or *privacy* related, please DM him or email him at `enduranetsecurity.dastardly057@passmail.net` (the email is a [Proton](https://proton.me/) alias and will route to his primary email).
+-   __Find out if someone has a certification?__
+
+    ---
+
+    See [<abbr title="Anyone Can Do This">🌐</abbr> Check Certification Status](how-to/check-cert-status.md).
+
+-    __Create a record of someone being certified?__
+
+    ---
+
+    See  [<abbr title="Permission Gated">🔑</abbr> Add a New Certification Event](how-to/add-new-history.md).
+
+-   __Change someone's permissions?__
+
+    ---
+
+    See [<abbr title="Administrator Only">🛡️</abbr> Change Permissions](how-to/change-perms.md).
+
+</div>
+
+---
+
+## What's new in v1.2.0?
+
+* Added new permission: `can_bypass_validate`.
+    * Allows a user to bypass data validation on applicable forms (e.g. bypass "don't allow member to certify themselves" or "don't allow certification history to be in the future").
+* Attempting to add certain people to the EnduraNet database may now prompt escalation to Fleff and the moderator team.
+* EnduraNet will now mark someone's certification as expired if the major version number of the certification in their history does not match the up-to-date major version number.
+* Reduced the width of date input fields so access to GUI-date selection wasn't on far right of the user's screen.
+
+---
+
+## Need Help?
+| Issue Type               | How to Report                                                                 |
+|--------------------------|-------------------------------------------------------------------------------|
+| 🐞 **General Bugs**       | DM Sirdog or ping in `EnduraNet (Cert DB)` thread of `dev-ops` forum (EDC Discord).                   |
+| 🔒 **Security/Privacy Issues**    | DM Sirdog or email `enduranetsecurity.dastardly057@passmail.net` ([Proton Mail](https://proton.me/)).           |
+| ❓ **Usage Questions**    | Check [How to Use](viewing-data.md) or ask in `EnduraNet (Cert DB)` thread .                              |
+| ✨ **Feature Requests**   | Ask in `EnduraNet (Cert DB)` thread.    |

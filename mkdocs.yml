@@ -16,6 +16,10 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+  icon:
+    repo: fontawesome/brands/github
+  extra_css:
+    - docs/assets/custom.css
 
   features:
     - header.autohide
@@ -34,35 +38,43 @@ theme:
 
 markdown_extensions:
   - admonition
-  - attr_list
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - tables
   - fenced_code
   - footnotes
+  - attr_list
 
 nav:
-  - Front Page: index.md
-  - How to Use:
-      - Viewing Data: viewing-data.md
-      - Editing Data:
-          - Logging In: edit/logging-in.md
-          - Adding & Editing Members: edit/edit-members.md
-          - Adding & Editing Certifications: edit/edit-certs.md
-          - Adding, Editing & Deleting History: edit/edit-history.md
-          - Adjusting Permissions: edit/change-perms.md
-          - Utilities:
-              - Flagged Persons: edit/flagged-persons.md
-  - Permissions & Access: permissions.md
-  #- Code: code.md
+  - Welcome: index.md
+  - How-Tos:
+      - Navigation: how-to/site-nav.md
+      - Check Certification Status: how-to/check-cert-status.md
+      - Change Permissions: how-to/change-perms.md
+      - Logging In: how-to/login.md
+      - Member Management:
+          - Add a New Member: how-to/add-new-member.md
+          - Edit a Member: how-to/edit-member.md
+          - Search for a Member: how-to/search-for-member.md
+          - Getting Discord and Steam ID: how-to/get-ids.md
+      - Certification Management:
+          - Add a New Certification: how-to/add-new-cert.md
+          - Edit a Certification: how-to/edit-cert.md
+          - Search for a Certification: how-to/search-for-cert.md
+      - Certification History Management:
+          - Add a New Certification Event: how-to/add-new-history.md
+          - Edit a Certification Event: how-to/edit-history.md
+          - Delete a Certification Event: how-to/delete-history.md
+          - Searching for Certification History: how-to/search-history.md
+  - Guides:
+      - Permissions: guides/permissions.md
+      - Flagged Persons: guides/flagged-persons.md
+      - Business Logic: guides/business-logic.md
   - Release Notes: release-notes.md
+  - Road Map: roadmap.md
 
 copyright: Copyright &copy; 2025 Endurance Coalition
 
 extra:
   generator: false
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://google.com
-      name: Discord
