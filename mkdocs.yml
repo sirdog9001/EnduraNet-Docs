@@ -77,4 +77,4 @@ nav:
 copyright: Copyright &copy; 2025 Endurance Coalition
 
 extra:
-  generator: false
+  generator: true

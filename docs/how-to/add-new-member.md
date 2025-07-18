@@ -22,4 +22,4 @@ Anytime you add a member to EnduraNet you will get a confirmation prompt. This p
 Remember that you can verify who a Discord ID belongs to at [Discord.id](https://discord.id).
 
 ## Flagged Person
-If you are kicked back to the form with a prompt talking the person being flagged for review please see guide [Flagged Persons](../guides/flagged-persons.md).
+If you are kicked back to the form with a prompt talking about the person being flagged for review please see guide [Flagged Persons](../guides/flagged-persons.md).

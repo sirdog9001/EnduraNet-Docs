@@ -18,3 +18,6 @@ You will be shown a form with the following fields.
 
 Once you are done, click `Update Member`.
 
+## Changing Discord ID
+For security reasons, changing an existing member's Discord ID must be done in the database manually. This is why the field is read-only.
+

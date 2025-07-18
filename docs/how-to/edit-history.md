@@ -13,7 +13,7 @@ You will be shown a form with the following fields.
 
 | Field | Data Accepted | What It Is | Visibility |
 | :--------- | :----------- | :----------- | :----------- |
-| Certification History to Edit | N/A | The [UID](../search-history.md) of the certification record. |
+| Certification History to Edit | N/A | The [UID](search-history.md) of the certification record. |
 | Date Member was Certified | N/A | The date the certification happened. |
 | Member Being Certified | N/A |  The member getting credited with a certification. | 
 | Certifying Member | N/A | The member who performed the certification of the `Member Being Certified`. |
