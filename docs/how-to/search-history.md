@@ -1,7 +1,7 @@
 > 🌐 *Anyone can perform this action.*
 
 !!! info
-    The *Certification History* tab will **not** clearly display whether a record results in the certification being valid or invalid for the member. See [Check Certification Status](check-cert-status.md) to do that.
+    The *Certification History* tab is not designed to display whether a member's status on a certification is valid. See [Check Certification Status](check-cert-status.md) to learn how to do that.
 
 <figure>
     <img src="../../assets/certification_history_tab_example.png" alt="">

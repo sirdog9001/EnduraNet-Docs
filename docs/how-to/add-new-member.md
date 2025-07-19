@@ -17,9 +17,9 @@ You will be shown a form with the following fields.
 Once you are done, click `Add Member`. 
 
 ## Confirmation Prompt
-Anytime you add a member to EnduraNet you will get a confirmation prompt. This prompt advises you to ensure the Discord ID is correct. This is because, for security reasons, editing Discord IDs after a member is added must be done through manual database manipulation.
+After clicking `Add Member` you will see a confirmation popup. This prompt advises you to double check the Discord ID. This is because, for security reasons, Discord IDs cannot be edited after a member is added.
 
-Remember that you can verify who a Discord ID belongs to at [Discord.id](https://discord.id).
+[Discord.id](https://discord.id) is a resource you can use to double check that a number you've copied is *actually* a Discord ID.
 
 ## Flagged Person
 If you are kicked back to the form with a prompt talking about the person being flagged for review please see guide [Flagged Persons](../guides/flagged-persons.md).

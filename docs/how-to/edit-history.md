@@ -9,7 +9,7 @@
 
 To edit existing certification history, go to the *Data Management* tab and click the `Existing Certification History` button.
 
-You will be shown a form with the following fields.
+You will be shown a form with the following fields. 
 
 | Field | Data Accepted | What It Is | Visibility |
 | :--------- | :----------- | :----------- | :----------- |
@@ -23,3 +23,8 @@ You will be shown a form with the following fields.
 | Bypass validation rules for this submission | N/A | Bypasses business logic. **Only visible to those with `can_bypass_validate`** |
 
 Once you are done, click `Add Certification History`. 
+
+## Finding a Record 
+Because there is not an obvious name for certification history records a record's [UID](search-history.md) is used for the selection dropdown. This is a unique identifier assigned to every instance of a certification event. 
+
+To find the UID of the record you'd like to manipulate go to the *Certification History* tab and use the table's search bar. Once you've found the record, copy or remember it's UID, then return to the editing form. You'll select that number for the `Certification History to Edit` field.
