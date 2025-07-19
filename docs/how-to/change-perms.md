@@ -12,6 +12,6 @@ The revocation of *all* permissions will also take away a member's ability to lo
 ## Changing is_admin
 For security and accountability reasons changing [is_admin](../guides/permissions.md#is_admin) — and thus granting or revoking administrator status from a member — requires manual database manipulation.
 
-As natural consequence of this is that an administrator cannot revoke another administrator's ability to login since EnduraNet counts [is_admin](../guides/permissions.md#is_admin) as a permission. This is by design.
+A natural consequence of this is that an administrator cannot revoke another administrator's ability to login. EnduraNet counts [is_admin](../guides/permissions.md#is_admin) as a permission for login purposes. This is by design.
 
 [^1]: The form with the delete button that would be used by someone with `can_delete_cert_hist` requires `can_edit_cert_hist` to access. Ergo, they'd be unable to access the form to perform the deletion. This will be fixed in a future release.
