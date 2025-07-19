@@ -2,7 +2,7 @@
 
 
 **The documentation for EnduraNet — the Endurance Coalition's information management system for Arma 3.**<br/>
-*Current version: v1.2.0 · Last updated: July 11, 2025*
+*Current version: v1.2.1 · Last updated: July 19, 2025*
 
 
 

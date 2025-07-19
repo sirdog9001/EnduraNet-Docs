@@ -1,5 +1,29 @@
 # Release Notes
 
+## Version 1.2.1
+July 19, 2025
+
+### Features
+- Link to release notes and end user documentation added to the footer.
+
+### Fixes
+- To patch a [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vector, the permission `can_edit_member` is no longer able to edit Discord IDs. Doing so now requires manual editing of the database.
+- Logic added to prevent duplication of existing database records (e.g., adding the same member twice).
+- Fixed issue where, due to how browsers handle time zones, dates rendered would sometimes be 1 day behind what is reflected in the database.
+- Fixed issue where some of the form help text at `add-cert-hist.php` and `edit-cert-hist.php` did not match.
+
+### Miscellaneous
+- Changed the text of the hover tool-tip at `admin.php`.
+- A confirmation modal now displays when adding new members. Its focus is to have the user double-check the accuracy of a submitted Discord ID.
+- Help text changed at `add-member.php` and `edit-member.php` to lead to the EnduraNet documentation on how to get Discord and Steam IDs rather than third-party sites.
+- The amount of characters allowed in a certification's description has been capped at 500.
+
+### Known Issues
+- User sessions cannot be remotely terminated, and thus the changing of permissions—or their revocation—will not take effect until a user logs out or their session naturally expires.
+- User actions are not logged.
+- Certifications cannot be set to not expire.
+- Giving `can_delete_cert_hist` without `can_edit_cert_hist` makes `can_delete_cert_hist` unusable as the form where the delete functionality is located requires `can_edit_cert_hist` to access.
+
 ## Version 1.2.0
 July 11, 2025
 

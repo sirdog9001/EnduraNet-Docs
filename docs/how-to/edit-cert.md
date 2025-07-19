@@ -4,6 +4,7 @@
     The following [business logic](../guides/business-logic.md) apply to certifications. Violation without using the bypass will cause the submission to be rejected. **Inputs are not saved when submissions are rejected.**
     
     - `Expiry Interval` cannot meet or exceed 400 days.
+    - `Description` cannot exceed 500 characters. *This cannot be bypassed.*
 
 To edit an existing certification, go to the *Data Management* tab and click the `Edit Existing Certification` button.
 
