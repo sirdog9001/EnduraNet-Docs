@@ -1,5 +1,11 @@
 # Release Notes
 
+## Version 1.2.2
+July 30, 2025
+
+### Fixes
+- Fixed edge case where a user with `can_delete_cert_hist` would be unable to use the permission as the form to perform deletion (`edit-cert-hist.php`) required `can_edit_cert_hist` to access. Access to form now allows _either_ permission.
+
 ## Version 1.2.1
 July 19, 2025
 
